@@ -1,0 +1,370 @@
+* { 
+	font-family: sans-serif, serif, arial, monospace;
+}
+
+html {
+
+}
+
+#wrapper {
+	width: 960px;
+	height: 700px;
+	margin: 0px auto; 
+}
+
+#header {
+	width: 960px;
+	height: 140px; 
+	position: relative;
+	border-bottom: 10px solid #c8cfb0;
+}
+
+#header-right {
+	float: right;
+	height: 100px;
+}
+
+#header-right form {
+	border: 4px solid black ;
+	margin-top: 0px;
+}
+
+#header-right ul {
+	list-style-type: none;
+	padding-left: 120px; 
+}
+
+#header-right ul li {
+	display: inline;
+	border-right: 1px solid  #c4cbab;
+	padding-right: 5px;
+	padding-top: -5px;
+}
+
+#header-right ul li a {
+	color: #c4cbab;
+	font-size: 10px
+}
+
+#header-right #no-border {
+	border-right: none;
+	color: #467469;
+}
+#logo {
+	display: inline-block;
+	width: 960px;
+	height: 100px; 
+	background-color: #467469;
+	/*top: -100px;*/
+	/*position: relative;*/
+}
+
+.clear {
+	clear: both;
+}
+
+/*#x {
+	height: 42px;
+	width: 180px;
+	float: left;
+	background-color: orange;
+
+}*/
+
+/*#main-menu img {
+	position: absolute;
+}*/
+
+#logo img {
+	float: left;
+	display: inline;
+}
+
+#main-menu {
+	/*display: right;*/
+	width: 958px;
+	height: 40px;
+	border: 1px solid black; 	
+	background-color: black; 
+	margin-top: 100px;
+}
+
+#main-menu ul {
+	list-style-type: none;
+	width: auto;
+	text-align: center;
+	padding-left: 0px;
+	font-size: 18px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	display: inline;
+	
+}
+
+#main-menu li {
+	display: inline-block;
+	margin-top: 10px;	
+}
+
+
+#main-menu ul li a {
+	text-decoration: none;
+	color: #c4cbab;
+	font-size: 12px;
+	padding-left: 10px;
+	padding-right: 10px;
+	/*height: 105px ; 
+	width: 55px;*/
+
+}
+#logo #main-menu ul li:hover {
+	background-color: #c9d0b2;
+	border-bottom: 12px solid #c9d0b2;
+	color: black;
+}
+
+
+#main-menu ul li a:hover {
+	color: black;
+}
+
+#logo #main-menu ul li:hover a {
+	color: black;
+}
+
+
+
+
+
+
+
+#container {
+	width: 940px;
+	height: 500px;
+	background-color: #e7e6de;
+	border: 10px solid #e7e6de;
+}
+
+#side-nav-bar {	
+	width: 180px;
+	height: 500px;
+	float: left;
+	/*background-color: #ffffff;*/
+	background-color: #e7e6de;
+
+}
+
+#search {
+	margin-left: -3px;
+}
+#x {
+	margin-right: 0px;
+}
+
+#header-right form {
+
+	background-color: #39473d;
+	margin-top: 35px;
+}
+
+#about	{
+	width: 187px;
+	height: 350px ;
+	background-color: #ffffff;
+}
+
+#about h4 {
+	background-color: #aa9165;
+	color: white;
+	width: 182px;
+	margin-top: 0px;
+	padding: 10px 0px 10px 5px;
+}
+
+#about p {
+	font-size: 12px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#about #underline {
+	text-decoration: underline;
+}
+
+#about #italic {
+	font-style: italic;
+}
+
+#about ul {
+	list-style-type: none;
+	padding-left: 0px;
+	margin-left: 20px;
+}
+
+#about ul li {
+	display: inline-block; /*block matter? */
+	font-size: 10px;
+	border: 1px solid black;
+	background-color: #f2f0ec;
+	padding: 3px;
+}
+
+#about ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+#side-bottom {
+	width: auto;
+	height: 100px ;
+	margin-top: 20px;
+	font-size: 10px;
+	/*background-color: #bdad91;*/
+	background-image: url("http://images4.fanpop.com/image/photos/17700000/Cup-of-coffee-coffee-17731301-500-313.jpg");
+	/*position: relative;*/
+	background-color: #ffffff
+}
+
+#side-bottom p {
+	color: white;
+}
+
+#color {
+	background: rgba(153,128,28, 0.6);
+	position: absolute; 
+	margin-top: 30px;
+	width: 140px
+}
+
+
+#main-content {
+	 float: right; /*Can do display inline block for this and the other one   */
+	 height: 500px;
+	 width: 700px;
+}
+
+
+#main-content-left {
+	float: left;
+	height: 500px;
+	width: 400px;
+	
+
+
+}
+#picture {
+	float: left;
+	height: 320px;
+	width: 400px;
+	border-bottom: 1px dotted black; 
+}
+
+#picture img {
+	border: 7px solid #ffffff;
+}
+
+#picture h2 {
+	color: #252525;
+}
+
+
+#main-content-right {
+	float: right;
+	height: 450px;
+	width: 270px;
+}
+
+#green {
+	background-color: white; 
+	border-radius: 20px;
+	padding: 10px 2px 10px 2px;
+}
+
+#whats-new {
+	border: 1px solid green;
+	height: 185px;
+	width: 185px; 
+	margin-right: 15px;
+	float: right;
+	font-size: 10px;
+	background-color: #5b9c81;
+	border-radius: 0px 30px 30px 30px;
+}
+
+#whats-new h2 {
+	text-align: right;
+	color: white;
+	font-size: 18px;
+	padding-top: 5px; 
+	padding-right: 10px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	
+}
+#dear-rosa {
+	float: right;
+	border: 1px solid red;
+	height: 270px;
+	width: 140px;
+	margin-top: 20px;
+	margin-right: 15px;
+	color: #ffffff;
+	text-align: center;
+	font-weight: bold; 
+	border: 3px solid #ffffff;
+	padding-left: 27px;	
+	padding-right: 27px;
+	padding-top: 15px;
+	/*background-image: url("http://fotobg.ru/upload/img1346345514.jpg");*/
+	background-image: url("http://gothamcenter.org/blotter/wp-content/uploads/2012/05/Figure-8-bricks.jpg");
+
+}
+
+.small {
+	width: 400px;
+	height: 70px;
+	display: inline-block;
+	margin-top: 15px;
+
+}
+
+.small img {
+	float: left;
+}
+
+.small ul {
+	list-style-type: none; 
+	margin-top: 0px;
+	padding-top: 0;
+	padding-bottom:0;
+
+}
+
+
+.small ul li {
+	float: left;
+	border-right: 1px solid black;
+}
+
+.small ul li a {
+	color: #823c2c;	
+	font-size: 10px;
+	text-decoration: none;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.small p {
+	margin-bottom: 0px;
+	margin-left: 100px;
+	padding-left: 8px;
+
+}
+.small ul .no-border {
+	border-right: 0px;
+}
+
+.small img #smaller {
+	margin-top: 0px;
+
+}
